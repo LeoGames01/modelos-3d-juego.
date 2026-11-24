@@ -1,0 +1,934 @@
+{
+  "version": 1.4,
+  "updatedAt": "2026-11-24T00:30:37.352Z",
+  "models": {
+    "player": "./leopro.glb",
+    "npcs": {
+      "ally_chispa": "./chispa.glb",
+      "npc_mateo": "./peedonsjeconanimacionew.glb"
+    },
+    "customCharacters": [],
+    "zombies": [
+      {
+        "id": "remote_zombie_1",
+        "name": "zombiegordopus.glb",
+        "url": "./zombiegordopus.glb",
+        "targetKind": "spitter",
+        "spawnCount": 1
+      },
+      {
+        "id": "remote_zombie_3",
+        "name": "gendarme.glb",
+        "url": "./gendarme.glb",
+        "targetKind": "gendarme",
+        "spawnCount": 9
+      },
+      {
+        "id": "remote_zombie_4",
+        "name": "gendarmeequipado.glb",
+        "url": "./gendarmeequipado.glb",
+        "targetKind": "gendarme_heavy",
+        "spawnCount": 4
+      },
+      {
+        "id": "remote_zombie_5",
+        "name": "zombierunner.glb",
+        "url": "./zombierunner.glb",
+        "targetKind": "runner",
+        "spawnCount": 1
+      },
+      {
+        "id": "remote_zombie_6",
+        "name": "zombiegoedobarza.glb",
+        "url": "./zombiegoedobarza.glb",
+        "targetKind": "brute",
+        "spawnCount": 1
+      },
+      {
+        "id": "remote_zombie_7",
+        "name": "zombieriber.glb",
+        "url": "./zombieriber.glb",
+        "targetKind": "stalker",
+        "spawnCount": 1
+      },
+      {
+        "id": "remote_zombie_2",
+        "name": "policía.glb",
+        "url": "./policía.glb",
+        "targetKind": "police",
+        "spawnCount": 8
+      },
+      {
+        "id": "remote_zombie_8",
+        "name": "zombieconanimaciones.glb",
+        "url": "./zombieconanimaciones.glb",
+        "targetKind": "stalker",
+        "spawnCount": 4
+      }
+    ],
+    "weapons": {
+      "rifle": "./fusil.glb",
+      "pistol": "./rebolver.glb"
+    },
+    "equipment": {
+      "helmet": "./casco.glb",
+      "vest": "./chaleco.glb",
+      "bow": "./arco.glb",
+      "arrow": "./flecha.glb",
+      "stick": null,
+      "baton": null
+    },
+    "objectOverrides": {
+      "loot_molotov": "./molotov.glb",
+      "obelisco": "./obelisco.glb",
+      "ba_monument": "./letrasBA.glb",
+      "campfire": "./rusted barrel 3d model.glb",
+      "loot_backpack": "./mochila2.glb",
+      "metrobus_station": "./metrobus.glb",
+      "bus": "./linea60.glb",
+      "car_taxi": "./autoblanco.glb",
+      "car_sedan": "./autorojomoto.glb",
+      "car_wreck": "./autogris.glb",
+      "car_piled": "./autoblanco.glb",
+      "burnt_bus": "./linea60.glb"
+    }
+  },
+  "attachmentTransforms": {
+    "player": {
+      "helmet": {
+        "scale": 1.23,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0,
+        "posY": -0.053,
+        "posZ": -0.004,
+        "rotX": 9.2,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "vest": {
+        "scale": 1,
+        "scaleX": 1.49,
+        "scaleY": 1.49,
+        "scaleZ": 1.1,
+        "posX": 0,
+        "posY": 0.051,
+        "posZ": 0.003,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "backpack": {
+        "scale": 1,
+        "scaleX": 1.66,
+        "scaleY": 1.66,
+        "scaleZ": 2.03,
+        "posX": -0.033,
+        "posY": 0.025,
+        "posZ": -0.171,
+        "rotX": -180,
+        "rotY": -5.3,
+        "rotZ": -180
+      },
+      "rifle": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0.02,
+        "posY": -0.041,
+        "posZ": -0.061,
+        "rotX": -3.7,
+        "rotY": -0.9,
+        "rotZ": -1.2
+      },
+      "pistol": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0.008,
+        "posY": -0.043,
+        "posZ": -0.011,
+        "rotX": -1.2,
+        "rotY": 7.5,
+        "rotZ": -0.8
+      },
+      "bow": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": -0.073,
+        "posY": -0.031,
+        "posZ": -0.08,
+        "rotX": -0.7,
+        "rotY": -48.1,
+        "rotZ": -1.5
+      },
+      "arrow": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0.005,
+        "posY": -0.069,
+        "posZ": 0.621,
+        "rotX": -167.3,
+        "rotY": -3.4,
+        "rotZ": -179.6
+      },
+      "stick": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0.051,
+        "posY": -0.101,
+        "posZ": 0.034,
+        "rotX": -10.9,
+        "rotY": 12.1,
+        "rotZ": 20.5
+      },
+      "baton": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0.026,
+        "posY": -0.005,
+        "posZ": 0.022,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "molotov": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": -0.003,
+        "posY": 0.045,
+        "posZ": 0.059,
+        "rotX": -35,
+        "rotY": 62.5,
+        "rotZ": 60.2
+      },
+      "nail_bomb": {
+        "scale": 0.83,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0.039,
+        "posY": 0,
+        "posZ": 0.028,
+        "rotX": 32.3,
+        "rotY": 2,
+        "rotZ": 6.7
+      },
+      "grenade": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "bottle": {
+        "scale": 1,
+        "scaleX": 0.75,
+        "scaleY": 1,
+        "scaleZ": 0.75,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "can": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "brick": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0.055,
+        "posY": 0,
+        "posZ": 0.012,
+        "rotX": 27.3,
+        "rotY": 62.6,
+        "rotZ": -103.5
+      }
+    },
+    "zombie": {
+      "helmet": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "vest": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "rifle": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "pistol": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      },
+      "baton": {
+        "scale": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1,
+        "posX": 0,
+        "posY": 0,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0
+      }
+    },
+    "entities": {
+      "npc:chispa": {
+        "helmet": {
+          "scale": 1.28,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": -0.024,
+          "posZ": -0.001,
+          "rotX": 13.1,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 1,
+          "scaleX": 1.48,
+          "scaleY": 1.66,
+          "scaleZ": 1.07,
+          "posX": 0,
+          "posY": 0.026,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "backpack": {
+          "scale": 1.71,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.02,
+          "posY": 0.042,
+          "posZ": -0.141,
+          "rotX": -174.8,
+          "rotY": -4.3,
+          "rotZ": -179.6
+        },
+        "rifle": {
+          "scale": 1,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": -0.025,
+          "posZ": -0.118,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:zombie_1795045109797_7imgw_0": {
+        "vest": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "helmet": {
+          "scale": 0.37,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "rifle": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.212,
+          "posY": -0.1,
+          "posZ": 0.048,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "pistol": {
+          "scale": 1,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.276,
+          "posY": -0.19,
+          "posZ": -0.024,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "baton": {
+          "scale": 0.27,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.176,
+          "posY": -0.075,
+          "posZ": 0.051,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:zombie_1795044997715_ask5d_0": {
+        "baton": {
+          "scale": 0.37,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:zombie_1795045092882_lial9_0": {
+        "baton": {
+          "scale": 0.27,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.204,
+          "posY": -0.106,
+          "posZ": 0.032,
+          "rotX": -83.2,
+          "rotY": -15,
+          "rotZ": 5.5
+        },
+        "pistol": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.176,
+          "posY": -0.236,
+          "posZ": 0.026,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "rifle": {
+          "scale": 0.3,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.135,
+          "posY": -0.316,
+          "posZ": 0.025,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "helmet": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:zombie_1795045058271_2xhxa_0": {
+        "helmet": {
+          "scale": 0.21,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "rifle": {
+          "scale": 1,
+          "scaleX": 0.5,
+          "scaleY": 0.2,
+          "scaleZ": 0.2,
+          "posX": -0.21,
+          "posY": -0.131,
+          "posZ": 0.001,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "pistol": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.227,
+          "posY": -0.145,
+          "posZ": -0.003,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "baton": {
+          "scale": 1,
+          "scaleX": 0.2,
+          "scaleY": 0.21,
+          "scaleZ": 0.28,
+          "posX": -0.315,
+          "posY": -0.191,
+          "posZ": 0.009,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:zombie_1795120245336_ww72n_0": {
+        "helmet": {
+          "scale": 0.51,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": -0.094,
+          "posZ": -0.071,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "rifle": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "pistol": {
+          "scale": 1,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 0.2,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "baton": {
+          "scale": 1,
+          "scaleX": 0.31,
+          "scaleY": 0.31,
+          "scaleZ": 0.2,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:zombie_1795120265375_huuo9_0": {
+        "pistol": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.288,
+          "posY": -0.141,
+          "posZ": 0.082,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "rifle": {
+          "scale": 0.39,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.252,
+          "posY": -0.128,
+          "posZ": 0.043,
+          "rotX": 39.2,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "helmet": {
+          "scale": 0.27,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": -0.338,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "baton": {
+          "scale": 1,
+          "scaleX": 1,
+          "scaleY": 0.23,
+          "scaleZ": 0.2,
+          "posX": -0.197,
+          "posY": -0.274,
+          "posZ": 0.114,
+          "rotX": 129.2,
+          "rotY": 42.1,
+          "rotZ": -28.7
+        }
+      },
+      "zombie:zombie_1795120303025_9tffz_0": {
+        "rifle": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.158,
+          "posY": -0.196,
+          "posZ": -0.037,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 0.3,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "baton": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.323,
+          "posY": 0.008,
+          "posZ": -0.016,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "helmet": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:zombie_1795120285297_dj317_0": {
+        "helmet": {
+          "scale": 0.58,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": -0.484,
+          "posZ": -0.116,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "rifle": {
+          "scale": 0.34,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.292,
+          "posY": -0.099,
+          "posZ": 0.122,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:remote_zombie_4": {
+        "helmet": {
+          "scale": 1,
+          "scaleX": 0.2,
+          "scaleY": 0.2,
+          "scaleZ": 0.56,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "rifle": {
+          "scale": 0.2,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.341,
+          "posY": -0.086,
+          "posZ": 0.07,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:remote_zombie_3": {
+        "rifle": {
+          "scale": 1,
+          "scaleX": 0.3,
+          "scaleY": 0.3,
+          "scaleZ": 0.2,
+          "posX": -0.272,
+          "posY": -0.092,
+          "posZ": -0.012,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 1,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": 0,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "zombie:remote_zombie_2": {
+        "baton": {
+          "scale": 1,
+          "scaleX": 0.62,
+          "scaleY": 0.2,
+          "scaleZ": 0.62,
+          "posX": -0.242,
+          "posY": -0.085,
+          "posZ": -0.001,
+          "rotX": 100.3,
+          "rotY": -0.9,
+          "rotZ": -40.5
+        },
+        "pistol": {
+          "scale": 0.34,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": -0.306,
+          "posY": -0.256,
+          "posZ": 0.05,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        }
+      },
+      "npc:mateo": {
+        "helmet": {
+          "scale": 1.28,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0,
+          "posY": -0.061,
+          "posZ": 0,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "vest": {
+          "scale": 1,
+          "scaleX": 1.29,
+          "scaleY": 1.55,
+          "scaleZ": 1.12,
+          "posX": 0,
+          "posY": 0.054,
+          "posZ": 0.011,
+          "rotX": 0.7,
+          "rotY": 0,
+          "rotZ": 0
+        },
+        "backpack": {
+          "scale": 1,
+          "scaleX": 1.5,
+          "scaleY": 1.5,
+          "scaleZ": 1.84,
+          "posX": 0.013,
+          "posY": 0.065,
+          "posZ": -0.124,
+          "rotX": -180,
+          "rotY": 3.5,
+          "rotZ": -180
+        },
+        "rifle": {
+          "scale": 1,
+          "scaleX": 1,
+          "scaleY": 1,
+          "scaleZ": 1,
+          "posX": 0.003,
+          "posY": -0.031,
+          "posZ": -0.084,
+          "rotX": 0,
+          "rotY": 6.7,
+          "rotZ": 0
+        }
+      }
+    }
+  }
+}
