@@ -1,0 +1,573 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-27T21:55:32.292Z",
+  "audioBaseUrl": "",
+  "voices": {
+    "characters": {
+      "character_ricki": {
+        "url": "",
+        "speaker": "Ricki (Ricardo López)",
+        "description": "Voz base por defecto para líneas de Ricki sin archivo específico"
+      },
+      "character_mateo": {
+        "url": "",
+        "speaker": "Mateo (Mecánico)",
+        "description": "Voz base por defecto para líneas de Mateo sin archivo específico"
+      },
+      "character_chispa": {
+        "url": "",
+        "speaker": "Sofía «Chispa» Méndez",
+        "description": "Voz base por defecto para líneas de Chispa/Sofía sin archivo específico"
+      },
+      "character_narrator": {
+        "url": "",
+        "speaker": "Narrador / Radio Nacional",
+        "description": "Voz base por defecto para boletines de emergencia y narración"
+      }
+    },
+    "introAndCutscenes": {
+      "intro_0": {
+        "url": "",
+        "speaker": "Boletín de Emergencia",
+        "text": "Boletín urgente: una nueva cepa de Coronavirus, mucho más potente y letal, azota al planeta entero. Se declaran cuarentenas y emergencia sanitaria global."
+      },
+      "intro_1": {
+        "url": "",
+        "speaker": "Radio Nacional",
+        "text": "Desplegaron puestos médicos improvisados por toda la ciudad para aplicar una vacuna de urgencia y frenar el contagio, pero nadie previó el horror que desataría."
+      },
+      "intro_2": {
+        "url": "",
+        "speaker": "Alerta C-50",
+        "text": "La vacuna mutó el virus: los vacunados morían en minutos y volvían a levantarse como zombis sedientos de sangre, desencadenando un desastre en cadena mundial."
+      },
+      "intro_3": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Tiempo después, solo quedé yo. Perdí a mi familia y a todos los que conocía. Sin nada de mi vida anterior, camino entre ruinas buscando un lugar seguro y personas."
+      },
+      "intro_4": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "En plena nueve de Julio revisaba una pila de cajas y barriles, pero todo se derrumbó y quedé de frente con una horda encerrada en el callejón."
+      },
+      "intro_5": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Corrí desesperado por la nueve de Julio esquivando autos y escombros con la jauría encima, buscando la boca del subte."
+      },
+      "intro_6": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Llegué solo al subte. La horda golpeó los objetos de la barricada hasta abrirse paso, las tablas cedieron y caí por las escaleras."
+      },
+      "intro_7": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Me levanté bajo el único haz de luz del hueco y me sacudí el polvo. Todo el subte está a oscuras."
+      },
+      "intro_alt_0": {
+        "url": "",
+        "speaker": "Narrador",
+        "text": "Cinco años después del brote C-50, la Avenida 9 de Julio es territorio muerto. En la oscuridad, cada ruido atrae a la jauría."
+      },
+      "intro_alt_1": {
+        "url": "",
+        "speaker": "Narrador",
+        "text": "Ricardo López, el último sobreviviente de su escuadrón, resiste junto a una fogata frente a los escombros del Metrobús."
+      },
+      "intro_alt_2": {
+        "url": "",
+        "speaker": "Narrador",
+        "text": "Tu primer refugio te espera en el Teatro Colón. Sobrevive a las primeras oleadas, abre el paso y asegúralo antes de caer."
+      },
+      "ally_rescue_0": {
+        "url": "",
+        "speaker": "Narrador",
+        "text": "Despejado el pasillo del tercer piso, la puerta de la cabina de sonido cede desde adentro."
+      },
+      "ally_rescue_1": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "Sofía sale de la sala de sonido tras días encerrada: «¡Gracias! Escuché los disparos afuera y supe que alguien había venido.»"
+      },
+      "ally_rescue_2": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "«No podemos quedarnos acá arriba. Sígueme hacia la salida del teatro: te ayudaré a despejar a los que se crucen hasta el Subte.»"
+      }
+    },
+    "storyAndRadio": {
+      "subte_wake": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Todo el subte está a oscuras... Al fondo del andén parpadea una radio portátil. Voy a escucharla antes de intentar subir."
+      },
+      "subte_ambush": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "¡La luz los despertó! ¡Se me vienen encima — a defenderse con esta madera rota!"
+      },
+      "exterior_wake": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "La 9 de Julio está infestada. Debo buscar provisiones y despejar el paso hacia un refugio."
+      },
+      "radio_chispa_call": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "«¡¿Alguien me copia?! Soy Sofía... estoy encerrada en la sala de sonido del tercer piso del Teatro Colón, rodeada de zombis. ¡Por favor, auxilio!»"
+      },
+      "radio_chispa_broadcast": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "Transmisión de emergencia de Sofía desde la sala de sonido del Teatro Colón."
+      },
+      "radio_chispa_declined_repeat": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "«...seguimos resistiendo en la sala de sonido del tercer piso del Colón... si alguien logra pasar por 9 de Julio...»"
+      },
+      "radio_chispa_accepted_repeat": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "«¡Gracias! Aguanto encerrada en la sala de sonido del tercer piso del Teatro Colón. Ten cuidado afuera.»"
+      },
+      "radio_ricki_yes": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Aguanta ahí, apenas pueda voy a ayudarte."
+      },
+      "radio_ricki_no": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Es muy peligroso. Primero tengo que sobrevivir y armarme por la avenida."
+      },
+      "exterior_exit_accepted": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Afuera la 9 de Julio es territorio muerto. Iré avanzando cuadra a cuadra para despejar la zona y llegar al Teatro Colón a rescatar a Sofía."
+      },
+      "exterior_exit_declined": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Por ahora sigo con el plan de buscar provisiones y asegurar armas en la avenida antes de arriesgarme en el Teatro Colón."
+      },
+      "mission1_complete": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Por fin llegué a la entrada del Teatro Colón. Esa señal de auxilio viene de adentro... voy a entrar a buscar a Sofía."
+      },
+      "mission2_complete": {
+        "url": "",
+        "speaker": "Ricki",
+        "text": "Logramos atrincherarnos en la estación de subte Carlos Pellegrini. Sofía instaló su taller químico en el andén y tenemos nuestra base asegurada."
+      },
+      "mateo_pharmacy_call": {
+        "url": "",
+        "speaker": "Mateo",
+        "text": "«¡Por favor, abre! Me llamo Mateo. Estaba buscando provisiones y los infectados me acorralaron aquí. ¿Me ayudas a volver a un lugar seguro?»"
+      },
+      "mateo_pharmacy_yes": {
+        "url": "",
+        "speaker": "Mateo",
+        "text": "«¡Gracias! Vamos pegados y en silencio hacia tu base; si nos rodean, me cubro atrás tuyo.»"
+      },
+      "mateo_pharmacy_no": {
+        "url": "",
+        "speaker": "Mateo",
+        "text": "Entiendo... me quedaré atrincherado detrás de esta puerta. Si decides ayudarme y llevarme a tu base, vuelve a tocar."
+      },
+      "mateo_base_story": {
+        "url": "",
+        "speaker": "Mateo",
+        "text": "Así que también están sin luz acá abajo. Soy mecánico: ya armé este banco y dejé el Fusil FAL reparado al 100% para ti. Unos saqueadores nos robaron un generador y lo guardan en una obra en construcción en Plaza de Mayo; si vamos a recuperarlo, podremos devolverle la electricidad a esta guarida."
+      },
+      "mission4_complete": {
+        "url": "",
+        "speaker": "Mateo",
+        "text": "¡Conseguimos el generador y salimos en la camioneta! De vuelta en el Subte vamos a devolverle la luz a toda nuestra base."
+      },
+      "mission5_complete": {
+        "url": "",
+        "speaker": "Mateo",
+        "text": "¡Motor V8 asegurado en la camioneta, Ricardo! Esa cobertura desde la terraza estuvo impecable; volvamos al Subte."
+      }
+    },
+    "subteAndCompanions": {
+      "chispa_greet_ready": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "¡Eh, trajiste justo lo que buscaba! Entrámelo o chusmeá mis mezclas."
+      },
+      "chispa_greet_idle": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "¡Buenas, capitán! Estoy calibrando mis frascos. Si conseguís insumos, te armo algo potente."
+      },
+      "mateo_greet_ready": {
+        "url": "",
+        "speaker": "Mateo",
+        "text": "Ya tengo el banco listo. Pásame los materiales y te dejo el equipo a punto."
+      },
+      "mateo_greet_idle": {
+        "url": "",
+        "speaker": "Mateo",
+        "text": "Estoy revisando los accesos y el armamento. Tráeme materiales así no te exponés afuera."
+      },
+      "chispa_escort_start": {
+        "url": "",
+        "speaker": "Chispa",
+        "text": "«¡Bajemos hacia la salida del teatro! Quédate cerca, yo te ayudo a despejar el paso hasta el Subte.»"
+      }
+    }
+  },
+  "soundEffects": {
+    "propsAndEnvironment": {
+      "can_clatter": {
+        "url": "",
+        "description": "Lata pateada o impactada"
+      },
+      "bottle_shatter": {
+        "url": "",
+        "description": "Botella de vidrio rota"
+      },
+      "bottle_clink": {
+        "url": "",
+        "description": "Botella pateada / rodando sin romperse"
+      },
+      "light_prop_bump": {
+        "url": "",
+        "description": "Golpe de cono o caja ligera"
+      },
+      "rock_kick": {
+        "url": "",
+        "description": "Piedra pateada o rodando"
+      },
+      "rock_impact": {
+        "url": "",
+        "description": "Impacto de piedra lanzada"
+      },
+      "brick_thud": {
+        "url": "",
+        "description": "Golpe de ladrillo"
+      },
+      "twig_snap": {
+        "url": "",
+        "description": "Rama seca quebrándose"
+      },
+      "stealth_lure": {
+        "url": "",
+        "description": "Chiflido / señuelo de sigilo"
+      },
+      "footstep_walk": {
+        "url": "",
+        "description": "Paso caminando"
+      },
+      "footstep_sprint": {
+        "url": "",
+        "description": "Paso corriendo / sprint"
+      },
+      "footstep": {
+        "url": "",
+        "description": "Paso genérico (si no hay walk/sprint)"
+      },
+      "land_step": {
+        "url": "",
+        "description": "Caída / aterrizaje al saltar"
+      },
+      "jump": {
+        "url": "",
+        "description": "Salto del jugador"
+      },
+      "door_creak": {
+        "url": "",
+        "description": "Puerta chirriando al abrir o cerrar"
+      },
+      "wood_plank_break": {
+        "url": "",
+        "description": "Tabla o barricada rota"
+      },
+      "thunder": {
+        "url": "",
+        "description": "Trueno de tormenta"
+      },
+      "wind_gust": {
+        "url": "",
+        "description": "Ráfaga de viento en exterior"
+      },
+      "water_drip": {
+        "url": "",
+        "description": "Gota de agua en subte/interior"
+      },
+      "metal_creak": {
+        "url": "",
+        "description": "Crujido metálico ambiental"
+      },
+      "subte_tunnel_cue": {
+        "url": "",
+        "description": "Eco lejano de túnel Subte"
+      },
+      "city_echo_cue": {
+        "url": "",
+        "description": "Eco lejano en avenida 9 de Julio"
+      },
+      "distant_combat_cue": {
+        "url": "",
+        "description": "Tiroteo o choque lejano ambiental"
+      },
+      "fire_crackle": {
+        "url": "",
+        "description": "Chisporroteo de fuego o barril en llamas"
+      }
+    },
+    "zombies": {
+      "zombie_alert": {
+        "url": "",
+        "description": "Grito / alerta general de zombi"
+      },
+      "zombie_alert_walker": {
+        "url": "",
+        "description": "Alerta específica de caminante"
+      },
+      "zombie_alert_runner": {
+        "url": "",
+        "description": "Alerta específica de corredor"
+      },
+      "zombie_alert_brute": {
+        "url": "",
+        "description": "Rugido específico de bruto"
+      },
+      "zombie_alert_stalker": {
+        "url": "",
+        "description": "Siseo/alerta de acechador"
+      },
+      "zombie_alert_spitter": {
+        "url": "",
+        "description": "Alerta específica de escupidor"
+      },
+      "zombie_hit": {
+        "url": "",
+        "description": "Impacto o quejido de zombi golpeado"
+      },
+      "zombie_headshot": {
+        "url": "",
+        "description": "Impacto crítico / tiro a la cabeza"
+      },
+      "zombie_death": {
+        "url": "",
+        "description": "Alarido/muerte general de zombi"
+      },
+      "zombie_death_walker": {
+        "url": "",
+        "description": "Muerte específica de caminante"
+      },
+      "zombie_death_runner": {
+        "url": "",
+        "description": "Muerte específica de corredor"
+      },
+      "zombie_death_brute": {
+        "url": "",
+        "description": "Muerte específica de bruto"
+      },
+      "zombie_death_stalker": {
+        "url": "",
+        "description": "Muerte específica de acechador"
+      },
+      "zombie_death_spitter": {
+        "url": "",
+        "description": "Muerte específica de escupidor"
+      },
+      "zombie_spit": {
+        "url": "",
+        "description": "Escupitajo ácido de zombi"
+      },
+      "slime_splat": {
+        "url": "",
+        "description": "Impacto de baba / ácido en superficie"
+      },
+      "ambush_growl": {
+        "url": "",
+        "description": "Gruñido de emboscada"
+      }
+    },
+    "hostilesAndRaiders": {
+      "raider_spot_alert": {
+        "url": "",
+        "description": "Grito / silbato de saqueador hostil al detectar"
+      },
+      "raider_bullet_impact": {
+        "url": "",
+        "description": "Impacto o silbido de bala hostil"
+      },
+      "medical_outpost_alarm": {
+        "url": "",
+        "description": "Alarma / sirena de puesto médico"
+      }
+    },
+    "weaponsAndCombat": {
+      "pistol_shot": {
+        "url": "",
+        "description": "Disparo de pistola"
+      },
+      "rifle_shot": {
+        "url": "",
+        "description": "Disparo de fusil FAL"
+      },
+      "reload": {
+        "url": "",
+        "description": "Recarga de arma de fuego"
+      },
+      "bow_draw": {
+        "url": "",
+        "description": "Tensado de arco"
+      },
+      "bow_release": {
+        "url": "",
+        "description": "Disparo de flecha"
+      },
+      "arrow_hit": {
+        "url": "",
+        "description": "Impacto de flecha"
+      },
+      "melee_swing": {
+        "url": "",
+        "description": "Golpe al aire cuerpo a cuerpo"
+      },
+      "hit": {
+        "url": "",
+        "description": "Impacto de puño/golpe rápido"
+      },
+      "stick_hit": {
+        "url": "",
+        "description": "Golpe contundente con palo"
+      },
+      "baton_hit": {
+        "url": "",
+        "description": "Golpe con tonfa policial"
+      },
+      "chop": {
+        "url": "",
+        "description": "Impacto cuerpo/madera"
+      },
+      "stealth_takedown": {
+        "url": "",
+        "description": "Derribo sigiloso por la espalda"
+      },
+      "glass_shatter_fire": {
+        "url": "",
+        "description": "Explosión de cóctel Molotov"
+      },
+      "nail_bomb_blast": {
+        "url": "",
+        "description": "Explosión de bomba de clavos"
+      },
+      "shatter": {
+        "url": "",
+        "description": "Rotura de cristal o escombro pesado"
+      },
+      "weapon_wear_click": {
+        "url": "",
+        "description": "Chasquido de desgaste de arma"
+      },
+      "weapon_break": {
+        "url": "",
+        "description": "Arma rota"
+      },
+      "weapon_dry_fire": {
+        "url": "",
+        "description": "Gatillo sin balas (clic seco)"
+      },
+      "weapon_unlock": {
+        "url": "",
+        "description": "Arma nueva recogida o desbloqueada"
+      },
+      "weapon_repair": {
+        "url": "",
+        "description": "Reparación en banco de taller"
+      },
+      "player_hurt": {
+        "url": "",
+        "description": "Daño recibido por Ricardo"
+      },
+      "armor_hit": {
+        "url": "",
+        "description": "Impacto absorbido por chaleco/casco"
+      },
+      "armor_break": {
+        "url": "",
+        "description": "Chaleco/casco destruido"
+      },
+      "armor_equip": {
+        "url": "",
+        "description": "Equipar chaleco/casco"
+      },
+      "back_attack_stun": {
+        "url": "",
+        "description": "Aturdimiento / latido por golpe sorpresa"
+      }
+    },
+    "itemsToolsAndVehicles": {
+      "pickup": {
+        "url": "",
+        "description": "Recoger botín / objeto"
+      },
+      "backpack_equip": {
+        "url": "",
+        "description": "Equipar o abrir mochila"
+      },
+      "inspect_rummage": {
+        "url": "",
+        "description": "Revisar / inspeccionar elemento"
+      },
+      "trash_rummage": {
+        "url": "",
+        "description": "Revolver bolsa o contenedor de basura"
+      },
+      "rat_squeak": {
+        "url": "",
+        "description": "Chillido de rata"
+      },
+      "rat_caught": {
+        "url": "",
+        "description": "Rata atrapada"
+      },
+      "chapitas_jingle": {
+        "url": "",
+        "description": "Tintineo de chapitas"
+      },
+      "flare": {
+        "url": "",
+        "description": "Bengala encendida"
+      },
+      "stoke": {
+        "url": "",
+        "description": "Avivar fuego / interacción general"
+      },
+      "flashlight_click": {
+        "url": "",
+        "description": "Clic de linterna"
+      },
+      "radio_static_burst": {
+        "url": "",
+        "description": "Ráfaga de estática de radio policial"
+      },
+      "wrench_clang": {
+        "url": "",
+        "description": "Golpe de llave inglesa / mecánica"
+      },
+      "repair_spark": {
+        "url": "",
+        "description": "Chispazo de soldadura / reparación"
+      },
+      "moto_start": {
+        "url": "",
+        "description": "Arranque de moto"
+      },
+      "wave_clear": {
+        "url": "",
+        "description": "Oleada u objetivo despejado"
+      }
+    }
+  }
+}
